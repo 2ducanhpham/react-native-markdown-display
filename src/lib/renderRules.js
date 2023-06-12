@@ -153,7 +153,7 @@ const renderRules = {
 
       return (
         <View key={node.key} style={styles._VIEW_SAFE_list_item}>
-          <Text style={[modifiedInheritedStylesObj, styles.ordered_list_icon]}>
+          <Text style={[modifiedInheritedStylesObj, styles.ordered_list_icon, { paddingTop: 5 }]}>
             {listItemNumber}
             {node.markup}
           </Text>
