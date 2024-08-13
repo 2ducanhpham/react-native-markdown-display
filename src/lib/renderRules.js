@@ -127,7 +127,7 @@ const renderRules = {
             style={[modifiedInheritedStylesObj, styles.bullet_list_icon]}
             accessible={false}>
             {Platform.select({
-              android: '●',
+              android: '•',
               ios: '•',
               default: '•',
             })}
